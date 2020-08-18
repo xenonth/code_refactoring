@@ -14,7 +14,7 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*Header css changes for the bar header*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -40,7 +40,7 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*color and text background for inner links as well as paragraph text*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -48,15 +48,6 @@ a {
 
 p {
     font-size: 16px;
-}
-
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .float-left {
@@ -85,7 +76,9 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/*Attempts were made to have a single class for the CSS however this caused all the images to come out weird and I traced back my work after testing each individual change. */
 
+/*benefits and subsequent classes are for the right side bar, needs to be left as is as many modification causes the images to jump to the right and enlarge.  Not enough time allowed to understand why.*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -160,6 +153,15 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/*main images for the header and centre of the webpage */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -187,7 +189,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*setup for footer*/
 .footer {
     padding: 30px;
     clear: both;
