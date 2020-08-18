@@ -14,7 +14,7 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-/*Header css changes for the bar header*/
+/*Header css changes for the banner header, children class of the header tag*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -28,7 +28,7 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     font-size: 20px;
 }
 
@@ -40,7 +40,9 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+
 /*color and text background for inner links as well as paragraph text*/
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -49,6 +51,8 @@ a {
 p {
     font-size: 16px;
 }
+
+/*float layout for central in-line stacking*/
 
 .float-left {
     float: left;
@@ -60,12 +64,14 @@ p {
     margin-left: 25px;
 }
 
+/* display class for the main content of the page as described in the brief.  Pictures and display information */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Display information for the background of the benefits section which will be displayed on the right hand side of the screen in the body section once the page is rendered*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -73,12 +79,12 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #2589bd;
 }
 /*Attempts were made to have a single class for the CSS however this caused all the images to come out weird and I traced back my work after testing each individual change. */
 
-/*benefits and subsequent classes are for the right side bar, needs to be left as is as many modification causes the images to jump to the right and enlarge.  Not enough time allowed to understand why.*/
+/*benefits and subsequent classes are for the right side bar, each class component needs to stay as is otherwise it will cause the page to break, reasons are unknown will require a more in-depth troubleshooting.*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -131,7 +137,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -140,7 +146,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -149,11 +155,11 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #0072bb;
     color: #ffffff;
 }
-/*main images for the header and centre of the webpage */
+/*images for the header and centre of the webpage using relative path sourcing*/
 .hero {
     height: 800px;
     width: 100%;
@@ -174,7 +180,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/*h2 setup for the left hand side floating boxes*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
