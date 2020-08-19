@@ -71,67 +71,7 @@ p {
     margin-left: 20px;
 }
 
-/* Display information for the background of the benefits section which will be displayed on the right hand side of the screen in the body section once the page is rendered*/
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    background-color: #2589bd;
-}
-/*Attempts were made to have a single class for the CSS however this caused all the images to come out weird and I traced back my work after testing each individual change. */
 
-/*benefits and subsequent classes are for the right side bar, each class component needs to stay as is otherwise it will cause the page to break, reasons are unknown will require a more in-depth troubleshooting.*/
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -195,6 +135,36 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/*benefits and subsequent classes are for the right side bar.*/
+/* Display information for the background of the benefits section which will be displayed on the right hand side of the screen in the body section once the page is rendered*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #2589bd;
+}
+
+.benefit-side {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-side h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-side img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
 /*setup for footer*/
 .footer {
     padding: 30px;
