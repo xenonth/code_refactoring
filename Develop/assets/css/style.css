@@ -62,7 +62,7 @@ p {
     background-position: center;
 }
 
-/*float layout for central in-line stacking*/
+/*float classes for the content images*/
 
 .float-left {
     float: left;
