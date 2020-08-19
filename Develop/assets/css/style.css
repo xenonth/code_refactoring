@@ -23,8 +23,8 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
-.header div {
+/*placed in banner menu class here to explain what the following set of css is doing in relations to the header class to differentiate between the corporate Horieson logo and webpage internal links.  The other header subclasses should work fine.*/
+.banner-menu {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -93,6 +93,7 @@ p {
 
 .core-information img {
     max-height: 200px;
+    
 }
 
 /*h2 setup for the left hand side floating boxes*/
