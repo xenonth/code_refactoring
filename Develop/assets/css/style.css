@@ -119,8 +119,10 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/*Through cleaning a top-margin was required to seperate the headers from the previous text line, apologies for creating unneccessary extra work for whoever is responsible for the graphic design of the page.*/
 
 .benefit-side h3 {
+    margin-top: 30px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -131,7 +133,7 @@ p {
     max-width: 150px;
 }
 
-/*setup for footer*/
+/*footer css display*/
 .footer {
     padding: 30px;
     clear: both;
